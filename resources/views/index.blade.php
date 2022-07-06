@@ -1,24 +1,7 @@
-@extends('layout')
+@extends('layouts.layout')
 @section('content')
   
-   <!-- @foreach($hotels as $hotel)
-            <div class="showcase">
-                <div class="showcase-banner">
-                    <img src="{{$hotel->image}}"
-                     alt="Hôtel de luxe" width="300" height="300" class="hotel-img default">
-                </div>
-                <div class="showcase-content">
-                    <a href="{{route('hotelpage' , $hotel->id)}}" class="showcase-category">{{$hotel->nom}}</a>
-                    <a href="{{route('hotelpage' , $hotel->id)}}">
-                        <h3 class="showcase-title">{{$hotel->description1}}</h3>
-                        
-                    </a>
-                    <button class="add-cart-btn btn-action"><a href="{{route('hotelpage' , $hotel->id)}}">Voir Plus</a> </button>
-                    
-    
-                </div>
-            </div>
-    @endforeach -->
+   
 @endsection
 
 @section('content1')
@@ -38,7 +21,7 @@
                                 <div class="portfolio-hover">
                                     <div class="portfolio-hover-content"><ion-icon name="arrow-forward-outline"></ion-icon></div>
                                 </div>
-                                <img class="img-fluid" src="{{$hotel->image}}" alt="..." />
+                                <img class="img-fluid" src="{{$hotel->image}}" alt="{{$hotel->description1}}" />
                             </a>
                             <div class="portfolio-caption">
                                 <div class="portfolio-caption-heading">{{$hotel->description1}}</div>

@@ -51,7 +51,7 @@ class HotelController extends Controller
         $image->move($destinationPath,$profileImage);
         $validateData['image'] = $profileImage;
         $hotels = Hotel::create($validateData);
-        return redirect('/hotels');
+        return redirect('/');
     }
 
     /**

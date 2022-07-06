@@ -1,4 +1,4 @@
-@extends('layout')
+@extends('layouts.layout')
 @section('content')
 <div class="hotel-featured">
         <h2 class="title">{{$hotel->nom}}</h2>

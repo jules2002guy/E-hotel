@@ -14,7 +14,7 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', [HotelController::class, 'index'])->name('home');
+Route::get('/', [HotelController::class, 'index'])->name('homepage');
 
 Route::get('/hotel/{id}', [HotelController::class, 'show'])->name('hotelpage');
 
