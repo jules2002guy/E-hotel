@@ -140,7 +140,7 @@
 <!--
     -lien js
 -->
-<script src="js/script.js"></script>
+<script src="{{ url('js/script.js')}}"></script>
 
 <!--
     -lien ionicon

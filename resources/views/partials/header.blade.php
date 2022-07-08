@@ -37,7 +37,7 @@
       <div class="header-main">
         <div class="container">
             <a href="#" class="header-logo">
-              <img src="images/logo/jv.png" alt="E-hotel logo" 
+              <img src="{{url('images/logo/jv.png')}}" alt="E-hotel logo" 
               width="100" height="95">
             </a>
 

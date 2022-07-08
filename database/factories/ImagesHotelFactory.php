@@ -16,7 +16,7 @@ class ImagesHotelFactory extends Factory
         return [
             'nomImage'=>$this->faker->imageUrl($width = 640, $height = 480),
             'destinationPath'=>$this->faker->words(6,true),
-            'hotel_id'=>$this->faker->numberBetween(1,6)
+            'hotel_id'=>$this->faker->numberBetween(1,25)
 
         ];
     }

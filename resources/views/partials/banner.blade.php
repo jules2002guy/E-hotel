@@ -2,7 +2,7 @@
 
         <div class="slider-container has-scrollbar">
             <div class="slider-item">
-                <img src="images/1.jpg" alt="les hôtels les plus chics de Kara vous attendent" class="banner-img">
+                <img src="{{url('images/1.jpg')}}" alt="les hôtels les plus chics de Kara vous attendent" class="banner-img">
                 
                 <div class="banner-content">
                     <p class="banner-sutitle">Faite vos reservation</p>
@@ -11,7 +11,7 @@
             
             </div>
             <div class="slider-item">
-                <img src="images/2.jpg" alt="les hôtels les plus chics de Kara vous attendent" class="banner-img">
+                <img src="{{url('images/2.jpg')}}" alt="les hôtels les plus chics de Kara vous attendent" class="banner-img">
                 
                 <div class="banner-content">
                     <p class="banner-sutitle">Tout type de chambre</p>

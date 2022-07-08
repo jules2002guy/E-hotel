@@ -39,6 +39,16 @@
     - FOOTER
   -->
   @include('partials.footer')
+  <!--
+    -lien js
+-->
+<script src="js/script.js"></script>
+
+<!--
+    -lien ionicon
+-->
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
   
 
 </body>
